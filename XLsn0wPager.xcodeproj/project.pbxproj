@@ -19,6 +19,7 @@
 		351421C11D92CC1B000ED22B /* XLsn0wProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 351421BB1D92CC1B000ED22B /* XLsn0wProgressView.m */; };
 		351421C21D92CC1B000ED22B /* XLsn0wScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 351421BD1D92CC1B000ED22B /* XLsn0wScrollView.m */; };
 		351421C61D92CC23000ED22B /* XLsn0wCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 351421C51D92CC23000ED22B /* XLsn0wCollectionViewFlowLayout.m */; };
+		351421C81D92CD69000ED22B /* XLsn0wPager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 351421C71D92CD69000ED22B /* XLsn0wPager.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		351421BD1D92CC1B000ED22B /* XLsn0wScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wScrollView.m; sourceTree = "<group>"; };
 		351421C41D92CC23000ED22B /* XLsn0wCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		351421C51D92CC23000ED22B /* XLsn0wCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		351421C71D92CD69000ED22B /* XLsn0wPager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wPager.podspec; sourceTree = "<group>"; };
+		351421C91D92CDEB000ED22B /* XLsn0wPagerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPagerKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3514219C1D92CB84000ED22B /* XLsn0w */ = {
 			isa = PBXGroup;
 			children = (
+				351421C71D92CD69000ED22B /* XLsn0wPager.podspec */,
+				351421C91D92CDEB000ED22B /* XLsn0wPagerKit.h */,
 				351421B31D92CC1B000ED22B /* XLsn0wPager */,
 				351421C31D92CC23000ED22B /* XLsn0wCollectionViewFlowLayout */,
 			);
@@ -191,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351421C81D92CD69000ED22B /* XLsn0wPager.podspec in Resources */,
 				351421951D92CB74000ED22B /* LaunchScreen.storyboard in Resources */,
 				351421921D92CB74000ED22B /* Assets.xcassets in Resources */,
 				351421901D92CB74000ED22B /* Main.storyboard in Resources */,
@@ -367,6 +373,7 @@
 				3514219B1D92CB74000ED22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
